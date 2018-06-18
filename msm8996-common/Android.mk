@@ -148,7 +148,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := GCam
-LOCAL_SRC_FILES := proprietary/app/gcam/gcam.apk
+LOCAL_SRC_FILES := proprietary/vendor/app/gcam/gcam.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
